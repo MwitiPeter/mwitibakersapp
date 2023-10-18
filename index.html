@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mwiti Bakers</title>
+    <link rel="icon" type="logo" href="images/Logo.jpg">
 
     <!-- swiper link -->
     <link
@@ -300,15 +301,15 @@
 
     <!-- news letter section start here -->
     <section class="newsletter">
-      <form action="">
-        <h3>Subscribe for Kitchen Ideas and Updates</h3>
+      <form name="contact" method="POST" data-netlify="true" onSubmit="submit" netlify>
+        <h3>Subscribe for Kitchen Ideas and Updates </h3>
         <input
           class="box"
           type="email"
-          name="email"
           placeholder="enter your email"
-          id="email" required/>
-        <input class="box2" type="button" value="subscribe" />
+          id="" name="email"
+        />
+        <button type="submit" class="box2">Subscribe</button>
       </form>
     </section>
     <!-- news letter section start here -->
